@@ -102,7 +102,7 @@ const ProgramSection = () => (
       <div className="list-container">
         <ul className="program-list">
           <ProgrammCard
-            img="./images/img-01.jpg"
+            img="/images/img-01.jpg"
             title="Yoga for health"
             text=" Minim veniam quis nostrud exercitation ullamco laboris nisi ut
               aliquip ex ea commodo consequat consectetur adipising elit,sed do
@@ -110,7 +110,7 @@ const ProgramSection = () => (
             period="Ashtanga-Hatha"
           />
           <ProgrammCard
-            img="./images/img-02.jpg"
+            img="/images/img-02.jpg"
             title="yoga for lose weight"
             text=" Minim veniam quis nostrud exercitation ullamco laboris nisi ut
               aliquip ex ea commodo consequat consectetur adipising elit,sed do
@@ -250,14 +250,14 @@ const InfoSection = () => (
   <section className="info-section">
     <ul className="program-list">
       <InfoCard
-        img="../images/ico-01.png"
+        img="/images/ico-01.png"
         alt="Pulse"
         title="Improved overall health"
         text="Enim ad minim veniam , quis nostrud exercitation toui ullamcomi
             laboris nisi ut aliquip ex ea com"
       />
       <InfoCard
-        img="./images/ico-02.png"
+        img="/images/ico-02.png"
         alt="Eye"
         title="Increased concentration"
         text="Enim ad minim veniam , quis nostrud exercitation toui ullamcomi
